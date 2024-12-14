@@ -1,0 +1,66 @@
+.card {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid #000;
+  font-size: 24px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.cardMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.cardImg {
+  width: 120px;
+  background-color: rgb(42, 42, 42);
+  border-radius: 50%;
+}
+
+.cardName {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardTag,
+.cardLocation {
+  color: grey;
+}
+
+.cardInfo {
+  display: flex;
+}
+
+.cardInfoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #dedede;
+  border-top: 3px solid #aeaeae;
+  padding: 12px;
+}
+
+.cardInfoItem:first-child {
+  border-radius: 0 0 0 8px;
+  border-right: 3px solid #aaaaaa;
+}
+
+.cardInfoItem:last-child {
+  border-radius: 0 0 8px 0;
+  border-left: 3px solid #aaaaaa;
+}
+
+.cardInfoItem > span {
+  display: block;
+}
+
+.cardInfoValue {
+  font-weight: 700;
+}

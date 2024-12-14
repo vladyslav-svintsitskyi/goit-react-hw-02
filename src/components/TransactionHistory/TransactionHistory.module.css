@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  width: 500px;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.table > thead {
+  background-color: #303030;
+  color: #fff;
+  font-weight: 700;
+}
+
+.column {
+  width: 30%;
+}
+
+.row {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.row:nth-child(even) {
+  background-color: #acacac;
+}
+
+.cell {
+  border: 1px solid;
+  padding-left: 60px;
+}
