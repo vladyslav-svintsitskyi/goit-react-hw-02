@@ -9,6 +9,8 @@ function App() {
     const saveData = JSON.parse(localStorage.getItem("feedback"));
     if (saveData !== null) {
       return saveData;
+    } else {
+      return { good: 0, neutral: 0, bad: 0 };
     }
   });
 
